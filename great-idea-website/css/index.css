@@ -54,13 +54,100 @@ table {
 
 html, body {
     height: 100%;
-    font-family: 'Titillium Web', sans-serif;
+    font-family: 'Orbitron', sans-serif;
 }
 
 h1, h2, h3, h4, h5 {
-    font-family: 'Bangers', cursive;
+    font-family: 'Orbitron', cursive;
     letter-spacing: 1px;
     margin-bottom: 15px;
 }
 
 /* Your code starts here! */
+body{
+  width: 90%;
+  margin: auto;
+}
+
+.header{
+  padding:1px;
+  background-color:rgb(0, 193, 252);
+  text-align: center;
+  position: fixed;
+  top: 0;
+  width:90%;
+}
+
+.header img{
+  vertical-align: middle;
+}
+
+.header a{
+  color: lightgray;
+  text-decoration: none;
+  padding-left: 4%;
+  padding-right: 4%;
+}
+
+.gettingStartedSection{
+  margin-top:5%;
+  width:100%;
+  border-bottom:1px solid black;
+}
+
+.contentBox{
+  text-align: center;
+  vertical-align: middle;
+  margin:1%;
+  width:48%;
+  display:inline-block;
+}
+
+.contentBox h3{
+  font-size: 300%;
+}
+
+.contentBox p{
+  border: 1px solid black;
+  display: inline;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+.featuresSection{
+  margin-top:1%;
+  width:100%;
+}
+
+.featuresBox{
+  vertical-align: middle;
+  margin:1%;
+  width:48%;
+  display:inline-block;
+}
+
+.middle-img{
+  width: 100%;
+  margin:1%;
+}
+
+.infoSection{
+  margin-top:1%;
+  width:100%;
+  border-bottom:1px solid black;
+}
+
+.infoBox{
+  margin: 1%;
+  width: 31%;
+  display:inline-block;
+}
+
+footer{
+  margin:1%;
+}
+
+footer p{
+  text-align: center;
+  margin:20px;
+}
